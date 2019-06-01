@@ -38,28 +38,23 @@ A = [[1, 2, 3, 4, 5],
      [16, 17, 18, 19, 20],
      [21, 22, 23, 24, 25]]
 
-print("Inciso 5")
-# imprime toda la matriz
-print("A= "+str(A[0]))  # primera fila
-print("   "+str(A[1]))  # segunda fila
-print("   "+str(A[2]))  # tercera fila
-print("   "+str(A[3]))  # cuarta fila
-print("   "+str(A[4]))  # quinta fila
+len(A)
 
-print("Inciso 6")
-# Cambio de valores en la matriz
-A[0][0] = 0  # primera fila primer valor
-A[1][1] = 0  # segunda fila segundo valor
-A[2][2] = 0  # tercera fila tercer valor
-A[3][3] = 0  # cuarta fila cuarto valor
-A[4][4] = 0  # quinta fila quinto valor
-
+print("Inciso 5, imprime la matriz A")
 # imprime toda la matriz
-print("A= "+str(A[0]))  # primera fila
-print("   "+str(A[1]))  # segunda fila
-print("   "+str(A[2]))  # tercera fila
-print("   "+str(A[3]))  # cuarta fila
-print("   "+str(A[4]))  # quinta fila
+for i in range(4)
+print(" "+str(A[i]))    # iésima fila
+end
+
+print("Incisos 6: Cambia la diagonal de la matriz A")
+print("Incisos 7: Imprime la nueva matriz A")
+# Cambio de valores en la diagonal de la matriz
+for i in range(4)
+A[i][i] = 0           # cambia la entrada diagonal Aii
+print(" "+str(A[0]))  # imprime la iésima fila
+end
+
+
 
 
 

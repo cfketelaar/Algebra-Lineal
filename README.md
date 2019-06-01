@@ -6,4 +6,8 @@ Laboratorios del curso de Álgebra Lineal
 ```bash
 git clone <git del proyecto>
 cd /<directorio>
+```
+2. Correr el archivo deseado
+```bash
 python ./<filename>.py
+```
